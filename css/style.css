@@ -1,0 +1,42 @@
+body {
+    background:#222; 
+    margin:0; 
+    padding:0;                                 
+    font-family:Helvetica;
+}
+
+span {
+    color:#FFF;
+}
+
+div#content {
+    margin-top:10px;
+}
+
+div#conf {
+    padding-bottom:10px;
+}
+
+table {
+    border:2px solid rgb(247, 250, 247);
+    box-shadow:1px 1px 8px #ffffff,-1px -1px 8px #ffffff, 1px -1px 8px #ffffff, -1px 1px 8px #ffffff;
+    -webkit-box-shadow:1px 1px 8px #ffffff,-1px -1px 8px #ffffff, 1px -1px 8px #ffffff, -1px 1px 8px #ffffff;
+    border-collapse:collapse;
+}
+
+td.pieza {
+    background:url('../img/unity.jpg');
+    transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
+    -o-transition:.3s ease-in-out; 
+    cursor:pointer;
+}
+
+div#titulo { 
+    color:rgb(189, 9, 9); 
+    font-size:30px; 
+    font-weight:bold; 
+}
+
+
